@@ -1,0 +1,6 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Target Name="CrestronAutoUploader4SeriesPostBuild" AfterTargets="AfterBuild">
+		<Message Text="Starting Crestron.Autouploader.4Series.1.0.34" Importance="high"/>
+		<Exec Command="powershell.exe &quot;&amp; '$(SolutionDir)packages\Crestron.Autouploader.4Series.1.0.34\tools\AutoUploaderPostBuild.ps1' '$(TargetPath)'&quot;"/>
+	</Target>
+</Project>
