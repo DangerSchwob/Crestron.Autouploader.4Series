@@ -6,8 +6,8 @@
     <title>Crestron Autouploader for 4-Series</title>
     <authors>DangerSchwob</authors>
     <owners>DangerSchwob</owners>
-    <licenseUrl>http://I-DONT-HAVE-A-URL.DE</licenseUrl>
-    <projectUrl>http://I-DONT-HAVE-A-URL.DE</projectUrl>
+    <licenseUrl>https://github.com/DangerSchwob/Crestron.Autouploader.4Series/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/DangerSchwob/Crestron.Autouploader.4Series</projectUrl>
     <iconUrl>http://I-DONT-HAVE-A-URL.DE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package will upload your program or library directly after you compiled it to your control system</description>
