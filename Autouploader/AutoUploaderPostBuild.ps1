@@ -450,7 +450,7 @@ try
 
             #upload cpz file
             $statusForm.Controls["FieldStatus"].AppendText("Upload starting`r`n")
-            Set-SFTPFile -SFTPSession $SFTPSession -LocalFile $file.FullName -RemotePath ("/program{0:00}" -f $controlSystem.slot) -Overwrite:$true
+            Set-SFTPItem -SFTPSession $SFTPSession -Path $file.FullName -Destination ("/program{0:00}" -f $controlSystem.slot) -Force
             $statusForm.Controls["FieldStatus"].AppendText("Upload done`r`n")
             #load programming
             $statusForm.Controls["FieldStatus"].AppendText("Program starting.`r`n")
